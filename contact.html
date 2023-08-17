@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column3{
+  float: left;
+  width: 33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+.column4{
+  float: left;
+  width: 33%;
+  padding: 10px;
+  
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:brown
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+</style>
+</head>
+<body bgcolor= "powderblue">
+
+
+
+
+<ul>
+  <li><a href="contact.html">Contact</a></li>
+  
+  <li><a href="services.html">Services</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="about.html">Home</a></li>
+  
+</ul>
+<center>
+<h2 style="margin-top:200px;color:brown;">User Information</h2>
+
+<form action="/action_page.php">
+  <label for="fname">Username:</label><br>
+  <input type="text" style="height:35px;width:300px; border-radius:5%;"id="fname" name="fname"><br>
+  <label for="lname">Email:</label><br>
+  <input type="Email"style="height:35px;width:300px; border-radius:5%;" id="lname" name="lname"><br>
+  
+  <label for="fname">Mobile:</label><br>
+  <input type="text"style="height:35px;width:300px; border-radius:5%;" id="fname" name="fname"><br>
+  <label for="lname">Comments:</label><br>
+  <input type="text"style="height:35px;width:300px; border-radius:5%;" id="lname" name="lname"><br><br>
+  
+  
+  
+  
+  <input type="submit" value="Submit">
+</form> 
+
+
+
+
+</body>
+</html>
+
